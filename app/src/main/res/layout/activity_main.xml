@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vegan.com.antivegan.MainActivity"
+    android:background="@drawable/no_anime"
+    >
+
+
+    <Button
+        android:id="@+id/bentai_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:text="Hentai" />
+
+    <Button
+        android:id="@+id/born_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bentai_button"
+        android:layout_below="@+id/bentai_button"
+        android:layout_marginTop="46dp"
+        android:text="Porn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bentai_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:fontFamily="serif"
+        android:text="Please select one of the buttons "
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="?attr/colorAccent"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+</RelativeLayout>
